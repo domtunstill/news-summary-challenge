@@ -1,3 +1,5 @@
+"use strict";
+
 function Article (headline, url, image){
   this.headline = headline;
   this.url = url;

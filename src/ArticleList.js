@@ -1,3 +1,5 @@
+"use strict";
+
 function ArticleList(){
     var articles = [];
 
@@ -8,6 +10,12 @@ function ArticleList(){
         
         all: function(){
             return articles;
+        },
+        findArticle: function(index){
+            return articles[index];
         }
     };
 };
+
+
+var articleList = new ArticleList;
